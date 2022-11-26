@@ -22,16 +22,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="10"
+        android:paddingTop="10"
+        android:paddingEnd="10"
+        android:paddingRight="10"
+        android:paddingBottom="10"
         android:text="@string/githubDef"
-        app:fontFamily="sans-serif-black"
-        tools:layout_editor_absoluteY="108dp" />
+        android:textSize="24"
+        app:fontFamily="sans-serif-condensed-medium"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="90dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Github intro"
+        android:text="@string/btn_1"
         android:textSize="18"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="244dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="249dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
