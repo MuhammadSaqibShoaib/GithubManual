@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Github Manual"
+        android:text="@string/app_name"
         android:textSize="34"
         app:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,23 +22,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="10"
+        android:paddingStart="20"
         android:paddingTop="10"
         android:paddingEnd="10"
-        android:paddingRight="10"
         android:paddingBottom="10"
         android:text="@string/githubDef"
         android:textSize="24"
         app:fontFamily="sans-serif-condensed-medium"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="90dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_1"
         android:textSize="18"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="249dp" />
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
