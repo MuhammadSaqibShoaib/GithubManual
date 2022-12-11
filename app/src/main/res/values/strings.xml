@@ -8,9 +8,19 @@
     <string name="VCSDef">\t\tIn software engineering, version control is a class of systems responsible for managing changes to computer programs, documents, large web sites, or other collections of information. Version control is a component of software configuration management.</string>
     <string name="VCS_Frag">What is Version Control</string>
 
+
     <!--Repositry related data (second button)-->
-    
-    <string name="btn_2">Github Docs</string>
+    <string name="btn_2">Repository?</string>
+    <string name="REP_Def">A location for storage, often for safety or preservation. (computing) a storage location for files, such as downloadable software packages, or files in a source control system. A burial vault. (figuratively) A person to whom a secret is entrusted.</string>
+    <string name="REP_Frag">What is Repository</string>
+
+
+    <!--Commit Related data (3rd button)-->
+
+
+
+
+    <string name="btn_x">Github Docs</string>
     <string name="gitDocs">https://docs.github.com/en</string>
     <!-- TODO: Remove or change this placeholder text -->
 
