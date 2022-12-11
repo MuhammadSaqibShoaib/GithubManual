@@ -20,18 +20,25 @@ TextView MainText,heading;
         heading = findViewById(R.id.heading);
         vcs_btn = findViewById(R.id.btn1);
 
-        vcs_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                VisiblityRemover(v);
-                Fragment definationFragment = new DefinationFragment();
-                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.container,definationFragment);
-                transaction.commit();
-            }
-        });
+        vcs_btn.setOnClickListener(v -> VCS_BTN(v));
     }
+
+
+    public void VCS_BTN(View v){
+        VisiblityRemover(v);
+        // sending data to fragment
+        Bundle bundle = new Bundle();
+        bundle.putString("heading",getString(R.string.VCS_Frag));
+        bundle.putString("def",getString(R.string.VCSDef));
+
+        // opening a fragment
+        Fragment definationFragment = new DefinationFragment();
+        definationFragment.setArguments(bundle);
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.container,definationFragment);
+        transaction.commit();
+    }
+
 
     public void VisiblityRemover(View v){
         MainText.setVisibility(v.GONE);

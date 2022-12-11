@@ -1,12 +1,17 @@
 <resources>
+    <!--app data-->
     <string name="app_name">Github Manual</string>
     <string name="githubDef">\tGitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</string>
 
+    <!--Version control relate data (first button)-->
     <string name="btn_1">Version Control?</string>
     <string name="VCSDef">\t\tIn software engineering, version control is a class of systems responsible for managing changes to computer programs, documents, large web sites, or other collections of information. Version control is a component of software configuration management.</string>
+    <string name="VCS_Frag">What is Version Control</string>
 
+    <!--Repositry related data (second button)-->
+    
     <string name="btn_2">Github Docs</string>
     <string name="gitDocs">https://docs.github.com/en</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="VCS_Frag">What is Version Control</string>
+
 </resources>
