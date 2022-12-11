@@ -10,35 +10,34 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_marginTop="30dp"
-       android:layout_marginBottom="20dp"
-       android:layout_marginLeft="30dp"
-       android:layout_marginRight="30dp"
-       android:text="@string/VCS_Frag"
-       android:textAlignment="center"
-       android:textSize="34"
-       app:fontFamily="sans-serif-black"
-       tools:layout_editor_absoluteX="25dp"
-       tools:layout_editor_absoluteY="31dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/VCS_Frag"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="31dp" />
 
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="485dp"
-       android:padding="10"
-       android:text="@string/VCSDef"
-       android:textSize="34"
-       tools:layout_editor_absoluteX="0dp"
-       tools:layout_editor_absoluteY="95dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="479sp"
+        android:text="@string/VCSDef"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="95dp" />
 
    <Button
        android:id="@+id/button"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="Back"
-       android:textSize="34"
+       android:textSize="34sp"
 
        app:fontFamily="sans-serif-condensed-light"
        tools:layout_editor_absoluteX="146dp"
