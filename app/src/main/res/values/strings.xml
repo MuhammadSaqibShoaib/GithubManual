@@ -16,8 +16,9 @@
 
 
     <!--Commit Related data (3rd button)-->
-
-
+    <string name="btn_3">Commit?</string>
+    <string name="COM_Def">In version control systems, a commit is an operation which sends the latest changes of the source code to the repository, making these changes part of the head revision of the repository. Unlike commits in data management, commits in version control systems are kept in the repository indefinitely.</string>
+    <string name="COM_Frag">What is Commit</string>
 
 
     <string name="btn_x">Github Docs</string>

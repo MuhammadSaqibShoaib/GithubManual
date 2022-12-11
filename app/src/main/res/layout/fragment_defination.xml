@@ -29,8 +29,12 @@
         android:id="@+id/frag_def"
         android:layout_width="wrap_content"
         android:layout_height="479sp"
+        android:padding="10sp"
         android:text="@string/VCSDef"
         android:textSize="34sp"
+        app:autoSizeMaxTextSize="34sp"
+        app:autoSizeMinTextSize="24sp"
+        app:autoSizeTextType="uniform"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="95dp" />
 
