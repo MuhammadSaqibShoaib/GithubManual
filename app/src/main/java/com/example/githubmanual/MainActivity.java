@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 Button vcs_btn;
 Button rep_btn;
 Button com_btn;
+Button brn_btn;
 TextView MainText,heading;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +25,12 @@ TextView MainText,heading;
         vcs_btn = findViewById(R.id.btn1);
         rep_btn = findViewById(R.id.btn_2);
         com_btn = findViewById(R.id.btn_3);
+        brn_btn = findViewById(R.id.btn_4);
         // setting on click listener on buttons
         vcs_btn.setOnClickListener(v -> VCS_BTN(v));
         rep_btn.setOnClickListener(v -> REP_BTN(v));
         com_btn.setOnClickListener(v -> COM_BTN(v));
+        brn_btn.setOnClickListener(v -> BRN_BTN(v));
     }
 
 
@@ -75,11 +78,27 @@ TextView MainText,heading;
         transaction.replace(R.id.container,definationFragment);
         transaction.commit();
     }
+
+    public  void BRN_BTN(View v){
+        VisiblityRemover(v);
+        // sending data to fragment
+        Bundle bundle = new Bundle();
+        bundle.putString("heading",getString(R.string.BRN_Frag));
+        bundle.putString("def",getString(R.string.BRN_Def));
+
+        // opening a fragment
+        Fragment definationFragment = new DefinationFragment();
+        definationFragment.setArguments(bundle);
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.container,definationFragment);
+        transaction.commit();
+    }
     public void VisiblityRemover(View v){
         MainText.setVisibility(v.GONE);
         heading.setVisibility(v.GONE);
         vcs_btn.setVisibility(v.GONE);
         rep_btn.setVisibility(v.GONE);
         com_btn.setVisibility(v.GONE);
+        brn_btn.setVisibility(v.GONE);
     }
 }

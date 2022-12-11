@@ -21,6 +21,11 @@
     <string name="COM_Frag">What is Commit</string>
 
 
+    <!--Branch Related Data (4th button)-->
+    <string name="btn_4">Branch?</string>
+    <string name="BRN_Frag">What is Branch</string>
+    <string name="BRN_Def">A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history.</string>
+
     <string name="btn_x">Github Docs</string>
     <string name="gitDocs">https://docs.github.com/en</string>
     <!-- TODO: Remove or change this placeholder text -->
