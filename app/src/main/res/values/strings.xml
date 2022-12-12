@@ -26,6 +26,12 @@
     <string name="BRN_Frag">What is Branch</string>
     <string name="BRN_Def">A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history.</string>
 
+
+    <!--Synchorization related data (5th Button)-->
+    <string name="btn_5">Synchronization?</string>
+    <string name="SYC_Frag">What is Synchronization?</string>
+    <string name="SYC_Def">Synchronization is the cooperative act of two or more threads that ensures that each thread reaches a known point of operation in relationship to other threads before continuing. Attempting to share resources without correctly using synchronization is the most common cause of damage to application data.</string>
+
     <string name="btn_x">Github Docs</string>
     <string name="gitDocs">https://docs.github.com/en</string>
     <!-- TODO: Remove or change this placeholder text -->
